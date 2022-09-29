@@ -1,0 +1,32 @@
+
+Day 06 :OOPS TASK 
+Write a “person” class to hold all the details.
+
+class person {
+constructor(name,age,place,phone){
+this.name= name;
+this.age = age;
+this.salary = place;
+this.phone = phone;
+}
+}
+var c1= new person(kumar,43,erode,9876543210);
+console.log(c1);
+------------------------------------------------------------------------
+
+write a class to calculate the uber price
+
+
+class uber {
+constructor(distance , price per km ){
+this.distance = distance
+this.price per km = price per km
+ }
+ }
+ mul(){
+return this.distance*this.price per km;
+}
+var m1=new uber (12,14);
+console.log(m1.mul());
+
+
